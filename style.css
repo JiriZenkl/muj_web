@@ -9,9 +9,9 @@ html {
     box-sizing: inherit;
   }
 .barvy { 
-    moje barvy
-    color: #16425B;
-
+    /*moje_barvy*/
+    color:
+#16425B
 #2F6690
 #3A7CA5
 #81C3D7
@@ -76,4 +76,10 @@ nav a:hover {
 }
 .uvod img {
     border-radius: 50%;
+}
+section {
+    padding: 50px 15%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
 }
