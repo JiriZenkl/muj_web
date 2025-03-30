@@ -8,13 +8,25 @@ html {
   *:after {
     box-sizing: inherit;
   }
+.barvy { 
+    moje barvy
+    color: #16425B;
+
+#2F6690
+#3A7CA5
+#81C3D7
+#D9DCD6
+#c1121f
+#780000
+}
+
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #d1ebec;
-    color: #333;
+    background-color: #D9DCD6;
+    color: #16425B;
     line-height: 1.6;
 }
 
@@ -38,18 +50,30 @@ p {
 }
 
 nav {
-    background-color: #000000;
-    color: #fff;
+    background-color: #16425B;
     padding: 10px 0;
     text-align: center;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: none;
+    
+
 }
 nav a {
-    color: #fff;
+    color: #D9DCD6;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
     padding: 0px 20px;
     display: inline-block;
     transition: background-color 0.3s ease;
+}
+nav a:hover {
+    color: #c1121f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+.uvod img {
+    border-radius: 50%;
 }
